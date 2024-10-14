@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Diseños</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .diseno {
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            padding: 10px;
+            background: #fff;
+        }
+
+        .preview {
+            padding: 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+        }
+
+        form label {
+            margin: 10px 0 5px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galería de Diseños HTML y CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#tutoriales">Tutoriales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a nuestra Galería</h2>
+            <p>Aquí encontrarás una variedad de diseños en HTML y CSS. Explora nuestras secciones y aprende a crear tus propios diseños.</p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de Diseños</h2>
+            <div class="diseno">
+                <h3>Diseño 1</h3>
+                <div class="preview" style="background-color: lightblue;">
+                    <p>Ejemplo de diseño con fondo azul claro.</p>
+                </div>
+            </div>
+            <div class="diseno">
+                <h3>Diseño 2</h3>
+                <div class="preview" style="background-color: lightgreen;">
+                    <p>Ejemplo de diseño con fondo verde claro.</p>
+                </div>
+            </div>
+            <div class="diseno">
+                <h3>Diseño 3</h3>
+                <div class="preview" style="background-color: lightcoral;">
+                    <p>Ejemplo de diseño con fondo coral.</p>
+                </div>
+            </div>
+            <!-- Agrega más diseños aquí -->
+        </section>
+
+        <section id="tutoriales">
+            <h2>Tutoriales</h2>
+            <article>
+                <h3>Tutorial 1: Introducción a HTML</h3>
+                <p>Aprende los conceptos básicos de HTML y cómo crear tu primera página web.</p>
+                <code>
+                    &lt;!DOCTYPE html&gt;<br>
+                    &lt;html&gt;<br>
+                    &lt;head&gt;<br>
+                    &nbsp;&nbsp;&lt;title&gt;Mi Primera Página&lt;/title&gt;<br>
+                    &lt;/head&gt;<br>
+                    &lt;body&gt;<br>
+                    &nbsp;&nbsp;&lt;h1&gt;¡Hola Mundo!&lt;/h1&gt;<br>
+                    &lt;/body&gt;<br>
+                    &lt;/html&gt;
+                </code>
+            </article>
+            <article>
+                <h3>Tutorial 2: Estilos CSS Básicos</h3>
+                <p>Aprende a aplicar estilos a tus páginas usando CSS.</p>
+            </article>
+            <article>
+                <h3>Tutorial 3: Diseño Responsivo</h3>
+                <p>Haz que tus diseños se vean bien en cualquier dispositivo.</p>
+            </article>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section id="recursos">
+            <h2>Recursos</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com">W3Schools</a></li>
+                <li><a href="https://developer.mozilla.org">MDN Web Docs</a></li>
+            </ul>
+        </section>
+
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <blockquote>
+                <p>"Esta página me ayudó a aprender mucho sobre diseño web!" - Juan Pérez</p>
+            </blockquote>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <article>
+                <h3>Artículos sobre diseño web</h3>
+                <p>Consejos y trucos para mejorar tus habilidades de diseño.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Página de Diseños</p>
+    </footer>
+</body>
+</html>
